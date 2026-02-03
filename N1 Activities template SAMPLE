@@ -1,0 +1,111 @@
+{
+  "url": "https://hec.huntress.io/services/collector/raw",
+  "activities": {
+    "ACTIONSET": [
+      "*"
+    ],
+    "ACTION": [
+      "*"
+    ],
+    "CONDITION": [
+      "*"
+    ],
+    "CONDITION_ACTIONSET": [
+      "*"
+    ],
+    "CONDITION_ACTION": [
+      "*"
+    ],
+    "ANTIVIRUS": [
+      "*"
+    ],
+    "PATCH_MANAGEMENT": [
+      "*"
+    ],
+    "TEAMVIEWER": [
+      "*"
+    ],
+    "MONITOR": [
+      "*"
+    ],
+    "SYSTEM": [
+      "*"
+    ],
+    "COMMENT": [
+      "*"
+    ],
+    "SHADOWPROTECT": [
+      "*"
+    ],
+    "IMAGEMANAGER": [
+      "*"
+    ],
+    "HELP_REQUEST": [
+      "*"
+    ],
+    "SOFTWARE_PATCH_MANAGEMENT": [
+      "*"
+    ],
+    "SPLASHTOP": [
+      "*"
+    ],
+    "CLOUDBERRY": [
+      "*"
+    ],
+    "CLOUDBERRY_BACKUP": [
+      "*"
+    ],
+    "SCHEDULED_TASK": [
+      "*"
+    ],
+    "RDP": [
+      "*"
+    ],
+    "SCRIPTING": [
+      "*"
+    ],
+    "SECURITY": [
+      "*"
+    ],
+    "REMOTE_TOOLS": [
+      "*"
+    ],
+    "VIRTUALIZATION": [
+      "*"
+    ],
+    "PSA": [
+      "*"
+    ],
+    "MDM": [
+      "*"
+    ],
+    "NINJA_REMOTE": [
+      "*"
+    ],
+    "NINJA_QUICK_CONNECT": [
+      "*"
+    ],
+    "NINJA_NETWORK_DISCOVERY": [
+      "*"
+    ],
+    "NINJA_BACKUP": [
+      "*"
+    ]
+  },
+  "expand": [
+    "userId",
+    "device",
+    "organization",
+    "statusCode",
+    "status",
+    "activityResult",
+    "message",
+    "type"
+  ],
+  "headers": [
+    {
+      "name": "Authorization",
+      "value": "Splunk 12345678910"
+    }
+  ]
+}
