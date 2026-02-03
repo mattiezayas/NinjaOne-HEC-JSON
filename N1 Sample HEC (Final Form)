@@ -1,0 +1,26 @@
+{
+  "url": "https://hec.huntress.io/services/collector/raw",
+"activities": {
+"SYSTEM": ["*"],
+"SECURITY": ["*"],
+"PATCH_MANAGEMENT": ["*"],
+"SOFTWARE_PATCH_MANAGEMENT": ["*"],
+"ANTIVIRUS": ["*"],
+"RDP": ["*"],
+"NINJA_BACKUP": ["*"],
+"SPLASHTOP": ["*"],
+"TEAMVIEWER": ["*"]
+},
+  "expand": [
+    "device",
+    "organization",
+    "location",
+    "policy" 
+  ],
+  "headers": [
+    {
+      "name": "Authorization",
+      "value": "Splunk 12345678910"
+    }
+  ]
+}
