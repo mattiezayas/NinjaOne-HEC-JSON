@@ -1,5 +1,7 @@
 Activity Type Code status variables: 
 
+This is a comprehnsive list of all the variables for each activity that can be sent via the webhook. 
+
 {
   "common_statuses": [
     "START_REQUESTED",
