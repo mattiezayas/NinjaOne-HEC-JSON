@@ -1,3 +1,10 @@
+This is a example of a final product of a JSON script for creating a valid webhook request:
+
+The activities can be modified for your teams specific use case on what activity logs you want sent to the webhook
+The expand can be modified for what key details you want included in the activity log that is sent. 
+The value should retain the "splunk" but should have your own unique key added for the autentication. 
+Leave the URL endpoint as is.
+
 {
   "url": "https://hec.huntress.io/services/collector/raw",
 "activities": {
