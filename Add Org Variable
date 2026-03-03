@@ -1,6 +1,3 @@
-This is a sample HEC with the Organization variable included:
-
-
 {
   "url": "https://hec.huntress.io/services/collector/raw",
   "organization": "<value of NINJA_ORGANIZATION_NAME>",
