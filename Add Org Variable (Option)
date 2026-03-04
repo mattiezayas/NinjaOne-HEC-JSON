@@ -20,7 +20,7 @@
   ],
   "headers": [
     {
-      "name": "Authorization",
+      "name": "Authorization", 
       "value": "Splunk 12345678910"
     }
   ]
