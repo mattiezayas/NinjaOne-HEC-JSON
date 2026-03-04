@@ -25,3 +25,33 @@
     }
   ]
 }
+
+
+And the PowerShell to produce that JSON dynamically from the environment variable:
+
+$OrganizationKey = $env:NINJA_ORGANIZATION_NAME
+
+$body = @{
+  url          = "https://hec.huntress.io/services/collector/raw"
+  organization = $OrganizationKey
+  activities   = @{
+    SYSTEM                    = @("*")
+    SECURITY                  = @("*")
+    PATCH_MANAGEMENT          = @("*")
+    SOFTWARE_PATCH_MANAGEMENT = @("*")
+    ANTIVIRUS                 = @("*")
+    RDP                       = @("*")
+    NINJA_BACKUP              = @("*")
+    SPLASHTOP                 = @("*")
+    TEAMVIEWER                = @("*")
+  }
+  expand  = @("device","organization","location","policy")
+  headers = @(
+    @{
+      name  = "Authorization"
+      value = "Splunk 12345678910"
+    }
+  )
+}
+
+$jsonBody = $body | ConvertTo-Json -Depth 5
